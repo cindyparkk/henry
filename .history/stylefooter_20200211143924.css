@@ -1,0 +1,18 @@
+#footer {
+    width: 100vw;
+    height: 20vh;
+    top: 80%;
+    display: flex;
+}
+
+#finner{
+    align-content: center;
+    display: flex;
+    background-color: brown;
+}
+
+.fdiv{
+width: 10%;
+height: 5%;
+background-color: blue;
+}

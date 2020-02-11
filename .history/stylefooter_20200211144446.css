@@ -1,0 +1,19 @@
+#footer {
+    width: 100vw;
+    height: 20vh;
+    top: 80vh;
+    display: flex;
+    position: relative;
+    /* flex-direction: row; */
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+
+.fdiv{
+
+width: 10%;
+position: relative;
+height: 5%;
+background-color: blue;
+}
