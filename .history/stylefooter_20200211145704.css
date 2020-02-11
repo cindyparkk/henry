@@ -3,17 +3,16 @@
     height: 20vh;
     top: 90vh;
     display: flex;
-    position: fixed;
+    position: relative;
     /* flex-direction: row; */
     justify-content: space-around;
     align-items: center;
     background-color: cadetblue;
-    transition: top 0.6s;
 }
 
 .fdiv{
 width: 10%;
-position: relative;
+position: absolute;
 height: 25%;
 background-color: blue;
 }

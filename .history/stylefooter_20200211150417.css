@@ -8,7 +8,6 @@
     justify-content: space-around;
     align-items: center;
     background-color: cadetblue;
-    transition: top 0.6s;
 }
 
 .fdiv{
@@ -20,5 +19,5 @@ background-color: blue;
 
 
 body, html{
-    margin: 0;
+    margin: 10;
 }
