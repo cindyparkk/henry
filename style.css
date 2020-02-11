@@ -11,25 +11,33 @@ body, html {
 #menu {
     background-color: rgb(248, 193, 202);
     position: absolute;
-    left: 0;
+    left: -180px;
     top: 50px;
     width: 200px;
     height: 100px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
+    transition: left 0.5s;
 }
 
 /* #content {
     margin: 
 } */
+.content {
+    margin: 10px;
+}
 
 #left {
     background-color: white;
-    width: 20px;
-    height: 80px;
-    position: absolute;
+    flex: 1;
+    /* width: 20px; */
+    height: 60px;
 }
-/* 
-#right {
 
-} */
+#right {
+    background-color: rgb(88, 64, 88);
+    flex: 3;
+    height: 30px;
+}
