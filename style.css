@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+}
+
+#header {
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+}
+
+#menu {
+    background-color: rgb(248, 193, 202);
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/* #content {
+    margin: 
+} */
+
+#left {
+    background-color: white;
+    width: 20px;
+    height: 80px;
+    position: absolute;
+}
+/* 
+#right {
+
+} */
